@@ -36,7 +36,7 @@ Write css.
 ```javascript
 const fs = require('fs');
 const postcss = require('postcss');
-const times = require('..');
+const times = require('postcss-times');
 
 const css = fs.readFileSync('./sample.css', 'utf-8');
 
