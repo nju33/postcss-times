@@ -1,0 +1,10 @@
+#id:times(2) {}
+.class:times(3) {}
+.parent .child:times(2) {}
+.parent .child.multi:times(2) {}
+[attr=class]:times(2) {}
+[attr^=class]:times(2) {}
+[attr$=class]:times(2) {}
+[attr="class"]:times(2) {}
+
+#id:times(str) {}
